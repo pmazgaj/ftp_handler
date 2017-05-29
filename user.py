@@ -3,6 +3,7 @@ from datetime import datetime
 
 
 class MailUser:
+    """Create program user (can send mail) - not recipient"""
     def __init__(self, login, password, domain):
         self.login = login
         self.password = password
